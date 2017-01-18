@@ -1,6 +1,6 @@
 import Vue from 'vue'
 
-import AppComponent from './app/index.vue'
+import AppComponent from './App/index.vue'
 
 const vm = new Vue({
   el: '#app',
@@ -8,4 +8,4 @@ const vm = new Vue({
     app: AppComponent,
   },
   render: h => h('app'),
-});
+})
